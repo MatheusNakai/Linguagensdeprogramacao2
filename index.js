@@ -1,3 +1,8 @@
 require('dotenv').config()
 console.log(process.env.API_key)
-//htpps://api.openweathermap.org/data/2.5/forecast?q=New York&appid=
+//operador de desestruturação
+
+const { PROTOCOL, BASE_URL, API_key, LANGU, UNITS, Q } = process.env
+const url = `${PROTOCOL}://${BASE_URL}?appid=${API_key}&units=${UNITS}&q=${Q}`
+
+console.log(url)
