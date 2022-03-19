@@ -17,12 +17,7 @@ function fatorial(n){
     return Promise.resolve(res)
 }
 
-function chamadaComThenCatch(){
-    fatorial(10)
-    .then(res => console.log(res))
-    .catch(err => console.log(err))
-
-    fatorial(-10)
-    .then(res => console.log(res))
-    .catch(err => console.log(err))
+function callWithAsyncAwait(){
+    const f1 = await fatorial(10)
+    const f2 = await fatorial(-5)
 }
