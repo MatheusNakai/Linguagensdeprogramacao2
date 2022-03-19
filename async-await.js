@@ -17,7 +17,14 @@ function fatorial(n){
     return Promise.resolve(res)
 }
 
-function callWithAsyncAwait(){
+async function callWithAsyncAwait(){
+    try{
     const f1 = await fatorial(10)
     const f2 = await fatorial(-5)
+    console.log(f1,f2)}
+    catch(e){
+        console.log(e)
+    }
 }
+
+callWithAsyncAwait()
