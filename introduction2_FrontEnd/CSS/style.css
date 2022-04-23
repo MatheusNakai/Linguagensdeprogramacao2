@@ -1,16 +1,45 @@
-article p{
-    background-color: darkviolet;
-    color: aqua;
-    font-size: 20px;
-    font-family: sans-serif;
-    padding: 10px;
+.box{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(purple, violet);
     border-radius: 10px;
-    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50%;
+    margin-left:40% ;
+  
+    padding: 10px;
+
+
 }
-p{
-    color: red;
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: center;
+    margin-left: 25%;
+    
 }
 
-.coordenadores{
-    color:antiquewhite
+label{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 35%;
+    text-align: center;
+
+}
+
+
+
+#titulo{
+    text-align: center;
 }
