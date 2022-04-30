@@ -2,7 +2,8 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "ola-angular",
-    template: `<p>Olá Angular</p>`
+    //template: ``
+    templateUrl: "./ola-angular.component.html"
 })
 export class OlaAangularComponent {
     
