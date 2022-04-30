@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { OlaAangularComponent } from './ola-angular/ola-angular.component';
+import { OlaAngularCliComponent } from './ola-angular-cli/ola-angular-cli.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OlaAangularComponent
+    OlaAangularComponent,
+    OlaAngularCliComponent
   ],
   imports: [
     BrowserModule
